@@ -63,7 +63,7 @@ class preCompuTable(object):
             self.glue_script_location_pyshell = glue_script_location
             
         if glue_custom_schema_location is None:
-            self.glue_custom_schema_location = 's3://<YourBucket/YourPrefix>/glue-etl/scripts/ctas_custom_schema.json'
+            self.glue_custom_schema_location = 's3://<YourBucket/YourPrefix>/glue-etl/scripts/custom_datatypes.json'
         else:
             self.glue_custom_schema_location = glue_custom_schema_location            
             
