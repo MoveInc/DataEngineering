@@ -56,7 +56,7 @@ class preCompuTable(object):
             self.s3_target_folder_parquet = s3_target_folder_parquet
  
         if glue_script_location is None:
-            self.glue_script_location = 's3://<YourBucket/YourPrefix>/glue-etl/scripts/glue_pyspark_csv2parquet.py' 
+            self.glue_script_location = 's3://<YourBucket/YourPrefix>/glue-etl/scripts/preCompuTable_csv2parquet.py' 
             self.glue_script_location_pyshell = 's3://<YourBucket/YourPrefix>/glue_python_shell/scripts/PyShellCSVToParquetFinal.py'
         else:
             self.glue_script_location = glue_script_location
